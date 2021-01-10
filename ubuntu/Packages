@@ -19,19 +19,19 @@ Description: Ubuntu live CD installer
  .
  Installing this package on a normal system is unlikely to be useful.
 
-Package: ubiquity-frontend-kde
+Package: ubiquity-frontend-kde-no-brand
 Source: ubiquity
 Version: 18.04.14
 Architecture: all
 Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
 Installed-Size: 588
-Depends: python3:any (>= 3.3.2-2~), ubiquity (= 18.04.14), python3-pyqt5, kde-window-manager | kwin, xauth, python3-dbus, python3-dbus.mainloop.pyqt5, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg
+Depends: python3:any (>= 3.3.2-2~), ubiquity, python3-pyqt5, kde-window-manager | kwin, xauth, python3-dbus, python3-dbus.mainloop.pyqt5, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg
 Provides: ubiquity-frontend-18.04.14
-Filename: ./ubiquity-frontend-kde/ubiquity-frontend-kde_18.04.14_all.deb
-Size: 71620
-MD5sum: aa5beef93b14807b1f8798e338b1eea8
-SHA1: 8e419e37ba834a662c9059b692d106712542cd75
-SHA256: 59ae39dd909a6f9b437b56267a248a65c55a3efde6a31d47625e301a2d873c27
+Filename: ./ubiquity-frontend-kde/ubiquity-frontend-kde-no-brand_18.04.14_all.deb
+Size: 69572
+MD5sum: f6da3c2d42c50eba50d9c62968cc273d
+SHA1: e971271761f79a71b2743fc8105c4d4136e3cc53
+SHA256: 2abf42876c62039e71cdf04b829f4731b383ec05d5e8e63c48cde02f78e5a30a
 Section: admin
 Priority: optional
 Description: KDE frontend for Ubiquity live installer
