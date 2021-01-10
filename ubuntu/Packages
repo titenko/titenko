@@ -1,0 +1,19 @@
+Package: ubiquity-frontend-kde-titenko-no-brand
+Source: ubiquity
+Version: 18.04.14
+Architecture: all
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 588
+Depends: python3:any (>= 3.3.2-2~), ubiquity (= 18.04.14), python3-pyqt5, kde-window-manager | kwin, xauth, python3-dbus, python3-dbus.mainloop.pyqt5, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg
+Provides: ubiquity-frontend-18.04.14
+Filename: ./ubiquity-frontend-kde/ubiquity-frontend-kde-titenko-no-brand_18.04.14_all.deb
+Size: 69588
+MD5sum: f9e4bdef51e0a01dd32ccb4349cd26e9
+SHA1: acfb558e1e398e60d3d646acbba68bd2e41b030f
+SHA256: 76b4c63cab49d9d1955451b4ab77a24f998f618121762a303b205696a9b72e0e
+Section: admin
+Priority: optional
+Description: KDE frontend for Ubiquity live installer
+ This package provides a KDE-based user interface frontend for the Ubiquity
+ live CD installer.
+
