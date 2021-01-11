@@ -18,7 +18,6 @@ In order to create your own custom ISO, you can follow these steps:
     
     ```
     sudo titenko-remastersys-skelcopy <username>
-    
     ```
     
     If you need additional items from a user’s home directory (such as training materials or other resources) copied to the default user profile folder, you will need to copy them manually.
@@ -31,7 +30,6 @@ In order to create your own custom ISO, you can follow these steps:
     
     ```
     /etc/titenko-remastersys/titenko-remastersys.conf
-    
     ```
     
     Notable things you may want to edit in this file include:
@@ -48,7 +46,6 @@ In order to create your own custom ISO, you can follow these steps:
     
     ```
     sudo titenko-remastersys dist
-    
     ```
     
 5.  ## Finished
