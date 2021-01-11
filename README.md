@@ -11,3 +11,6 @@
  - sudo curl -s --compressed -o /etc/apt/sources.list.d/titenko.list
    "https://titenko.github.io/titenko/ubuntu/titenko.list"
  - sudo apt update
+
+**Titenko-Remastersys**
+[titenko-remastersys](https://github.com/titenko/titenko/tree/master/ubuntu/titenko-remastersys) - Create a livecd of the installed system. You can either make a distributable livecd or a backup of your system.
