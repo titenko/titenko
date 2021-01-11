@@ -1,0 +1,11 @@
+/etc/titenko-remastersys/gdm/custom.conf
+/etc/titenko-remastersys/isolinux/isolinux.cfg.vesamenu
+/etc/titenko-remastersys/isolinux/splash.png
+/etc/titenko-remastersys/mdm/mdm.conf
+/etc/titenko-remastersys/patch/30parted
+/etc/titenko-remastersys/patch/30parted-remove-cdrom-device.patch
+/etc/titenko-remastersys/patch/50mounted-tests
+/etc/titenko-remastersys/patch/50mounted-tests-iso9660.patch
+/etc/titenko-remastersys/preseed/custom.seed
+/etc/titenko-remastersys/titenko-remastersys.conf
+/etc/titenko-remastersys/titenko-remastersys.version

@@ -1,0 +1,12 @@
+Package: titenko-remastersys
+Version: 4.5.8~ubuntu20.04.1
+Architecture: all
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Installed-Size: 7870
+Depends: archdetect-deb, bash, casper, coreutils, dpkg-dev, findutils, libc-bin, memtest86+, mkisofs | genisoimage, mount, passwd, rsync, sed, squashfs-tools, syslinux, syslinux-common, util-linux
+Recommends: zfsutils-linux, zfs-initramfs
+Section: utils
+Priority: optional
+Homepage: 
+Description: Create a livecd of the installed system
+ You can either make a distributable livecd or a backup of your system.

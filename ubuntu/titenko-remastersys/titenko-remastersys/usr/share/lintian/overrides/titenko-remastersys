@@ -1,0 +1,6 @@
+titenko-remastersys: arch-independent-package-contains-binary-or-object
+titenko-remastersys: unstripped-binary-or-object
+titenko-remastersys: depends-on-essential-package-without-using-version
+titenko-remastersys: depends-on-obsolete-package
+titenko-remastersys: binary-without-manpage usr/bin/titenko-remastersys-skelcopy
+titenko-remastersys binary: diff-contains-git-control-dir .git
