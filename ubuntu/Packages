@@ -6,10 +6,10 @@ Installed-Size: 7870
 Depends: archdetect-deb, bash, casper, coreutils, dpkg-dev, findutils, libc-bin, memtest86+, mkisofs | genisoimage, mount, passwd, rsync, sed, squashfs-tools, syslinux, syslinux-common, util-linux
 Recommends: zfsutils-linux, zfs-initramfs
 Filename: ./titenko-remastersys/titenko-remastersys_4.5.6.deb
-Size: 1461408
-MD5sum: 1f206de3aec80a716ed747244c8c8e6a
-SHA1: 9d198d08bfbc8d982a592b756f789fb8681e9225
-SHA256: eba2cccee1bbb3c8bff6630485a2cf718b3a7c4c2d5ce97d5057b6b0113055d9
+Size: 1460736
+MD5sum: 8cae59cc191eb2b77e145b1c2dacc5db
+SHA1: 9a0db5816ceba23bd68c5cf58d54613500bb58c1
+SHA256: fa3b834e473108015bf33c828b2a3997cad6e3628b38fbdccc1b2ef305082462
 Section: utils
 Priority: optional
 Description: Create a livecd of the installed system
