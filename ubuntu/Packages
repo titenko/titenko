@@ -1,3 +1,24 @@
+Package: leafpad
+Version: 0.8.18.1-5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 450
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.10.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Suggests: evince-gtk
+Filename: ./Leafpad/leafpad_0.8.18.1-5_amd64.deb
+Size: 85114
+MD5sum: f19e58413dff04c7f115a0ed66dab014
+SHA1: 638493a6c9faa9ce0878f8f67843dba68e283721
+SHA256: 1abe7b2c8913754bf522017cbf9522112e80d9a82b54f01f73a7ecad69383e4c
+Section: editors
+Priority: optional
+Homepage: http://tarot.freeshell.org/leafpad/
+Description: GTK+ based simple text editor
+ Leafpad is a simple GTK+ based text editor with user interface
+ similar to Notepad. It aims to be lighter than Gedit and KWrite,
+ and to be as useful as them.
+Original-Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+
 Package: titenko-remastersys
 Version: 4.5.8~ubuntu20.04.1
 Architecture: all
