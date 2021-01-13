@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: root@user-M56S-S3
 Installed-Size: 616
 Provides: checkinstall
-Filename: ./Checkinstall/checkinstall_20210112-1_amd64.deb
+Filename: ./Checkinstall/checkinstall_1.6.2_amd64.deb
 Size: 98912
 MD5sum: 50ae1a63833ba54749676cc9516d348d
 SHA1: 93ecaa6a81b6f0d73c7fbfa5a9bf92cd2e601316
