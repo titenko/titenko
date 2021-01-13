@@ -1,3 +1,24 @@
+Package: checkinstall
+Version: 20210112-1
+Architecture: amd64
+Maintainer: root@user-M56S-S3
+Installed-Size: 616
+Provides: checkinstall
+Filename: ./Checkinstall/checkinstall_20210112-1_amd64.deb
+Size: 98912
+MD5sum: 50ae1a63833ba54749676cc9516d348d
+SHA1: 93ecaa6a81b6f0d73c7fbfa5a9bf92cd2e601316
+SHA256: a673df9cd72468f5bcd6daf046c4ca496dc82117443241330791981e34a3a266
+Section: checkinstall
+Priority: extra
+Description: CheckInstall installations tracker, version 1.6.2
+ CheckInstall keeps track of all the files created or
+ modified by your installation script ("make install"
+ "make install_modules", "setup", etc), builds a
+ standard binary package and installs it in your
+ system giving you the ability to uninstall it with your
+ distribution's standard package management utilities.
+
 Package: leafpad
 Version: 0.8.18.1-5
 Architecture: amd64
@@ -26,7 +47,7 @@ Maintainer: Rik Shaw <rikshaw76@gmail.com>
 Installed-Size: 7870
 Depends: archdetect-deb, bash, casper, coreutils, dpkg-dev, findutils, libc-bin, memtest86+, mkisofs | genisoimage, mount, passwd, rsync, sed, squashfs-tools, syslinux, syslinux-common, util-linux
 Recommends: zfsutils-linux, zfs-initramfs
-Filename: ./titenko-remastersys/titenko-remastersys_4.5.6.deb
+Filename: ./Titenko-remastersys/titenko-remastersys_4.5.6.deb
 Size: 1460736
 MD5sum: 8cae59cc191eb2b77e145b1c2dacc5db
 SHA1: 9a0db5816ceba23bd68c5cf58d54613500bb58c1
