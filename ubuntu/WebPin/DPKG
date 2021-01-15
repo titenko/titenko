@@ -1,0 +1,3 @@
+dpkg -x ./pack.deb ./folder
+dpkg -e ./pack.deb ./folder/DEBIAN
+dpkg -b ./folder ./pack-new.deb

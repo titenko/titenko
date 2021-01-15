@@ -40,6 +40,257 @@ Description: GTK+ based simple text editor
  and to be as useful as them.
 Original-Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
 
+Package: libenchant-2-2
+Source: enchant-2
+Version: 2.2.8-1ubuntu0.20.04.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 186
+Depends: hunspell-en-us | hunspell-dictionary | myspell-dictionary | aspell-dictionary | ispell-dictionary, libaspell15 (>= 0.60.8), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.28.0), libhunspell-1.7-0, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Recommends: enchant-2
+Suggests: libenchant-2-voikko
+Filename: ./WebPin/Depends/libenchant-2-2_2.2.8-1ubuntu0.20.04.1_amd64.deb
+Size: 45596
+MD5sum: 74946bd91db3b3c7ac86f4c06a064f54
+SHA1: 1d09cbf81ca29a4bec7255f0ddc87fd7238ab56c
+SHA256: 50d8e3c477abb3d5b3f53c43e0f9e2aa7ae5674e56dfecbf6f894af3b321d219
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://abiword.github.io/enchant/
+Description: Wrapper library for various spell checker engines (runtime libs)
+ Enchant is a generic spell checking library which uses existing
+ spell checker engines such as ispell, aspell and myspell as its backends.
+ .
+ Enchant steps in to provide uniformity and conformity on top of these
+ libraries, and implement certain features that may be lacking in any
+ individual provider library.
+ .
+ This package contains the shared library and non-Voikko enchant plugins.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgee-0.8-2
+Source: libgee-0.8
+Version: 0.20.3-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 875
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.43.92)
+Filename: ./WebPin/Depends/libgee-0.8-2_0.20.3-1_amd64.deb
+Size: 215920
+MD5sum: 05277789e279a4d31b6d86250868a42d
+SHA1: 69e3e01af9c1a17d75d14e6f3fb52f17411300a3
+SHA256: 357c1595433dd22bc8a42e950ab367d233f84ad060c0da62b37f1da192c0f30e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Libgee
+Description: GObject based collection and utility library
+ libgee is a collection library providing GObject-based interfaces and
+ classes for commonly used data structures.
+ .
+ libgee provides the following interfaces:
+  * Traversable
+    - Iterable
+         + Collection
+           # List
+             * BidirList
+           # Set
+             * SortedSet
+               - BidirSortedSet
+           # MultiSet
+           # Queue
+             * Deque
+         + Map
+           # SortedMap
+             * BidirSortedMap
+    - Iterator
+         + BidirIterator
+           # BidirListIterator
+         + ListIterator
+           # BidirListIterator
+  * MultiMap
+  * Future
+ .
+ The ArrayList, ArrauQueue, ConcurrentLinkedList, ConcurrentSet, HashSet,
+ HashMap, HashMultiSet, HashMultiMap, LinkedList, PriorityQueue, Promise,
+ TreeSet, TreeMap, TreeMultiSet, and TreeMultiMap classes provide a
+ reasonable sample implementation of those interfaces. In addition, a set of
+ abstract classes are provided to ease the implementation of new collections.
+ .
+ Around that, the API provides means to retrieve read-only views, efficient
+ sort algorithms, simple, bi-directional or index-based mutable iterators
+ depending on the collection type.
+ .
+ libgee is written in Vala and can be used like any GObject-based C library.
+ It's planned to provide bindings for further languages.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgranite-common
+Source: granite
+Version: 0.5+ds-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 874
+Filename: ./WebPin/Depends/libgranite-common_0.5+ds-1_all.deb
+Size: 63932
+MD5sum: 21dee1d437caff696e3872ae860eab6a
+SHA1: ae5a2e2814dd5e61e3c70843065053586edcdbcf
+SHA256: 3b62d84eacd88ef6b711786ace5ed67556040b97e6422523e4c0831630557fa8
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/elementary/granite
+Description: extension of GTK+ libraries (common files)
+ Granite is an extension of GTK+. Among other things, it provides
+ complex widgets and convenience functions designed for use in apps
+ built for elementary OS.
+ .
+ This package contains common files needed by library.
+Original-Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+
+Package: libgranite4
+Source: granite
+Version: 0.5+ds-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 563
+Depends: libgranite-common (>= 0.5+ds-1), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.23.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.16.2), libpango-1.0-0 (>= 1.14.0)
+Filename: ./WebPin/Depends/libgranite4_0.5+ds-1_amd64.deb
+Size: 151384
+MD5sum: 28943782c8eaa84d68986fbd01fb1f3c
+SHA1: 6ab753f1f10612f9b90ef1e8ad3770d20d07b17a
+SHA256: c7375fcf9bf9454de0685d4a0d4842c6eb289826359676b719821ef69232478a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/elementary/granite
+Description: extension of GTK+ libraries
+ Granite is an extension of GTK+. Among other things, it provides
+ complex widgets and convenience functions designed for use in apps
+ built for elementary OS.
+ .
+ This package contains the shared library.
+Original-Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+
+Package: libgstreamer-gl1.0-0
+Source: gst-plugins-base1.0
+Version: 1.16.2-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 605
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.17), libegl1, libgbm1 (>= 8.1~0), libgl1, libglib2.0-0 (>= 2.40), libgstreamer-plugins-base1.0-0 (>= 1.8.0), libgstreamer1.0-0 (>= 1.16.2), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.9.91), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.6.9), libxcb1
+Recommends: gstreamer1.0-gl
+Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Filename: ./WebPin/Depends/libgstreamer-gl1.0-0_1.16.2-4_amd64.deb
+Size: 163240
+MD5sum: 3ed26168907001ee5b24037634bd3f4d
+SHA1: bf407f4e7699b69ca2f18b50e1ddefce8739b2ad
+SHA256: 5596bab27c678aa0e9baeea52cef86023228665b9f2595c29736370649690e33
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer GL libraries
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GL library.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libharfbuzz-icu0
+Source: harfbuzz
+Version: 2.6.4-1ubuntu4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 34
+Depends: libc6 (>= 2.4), libharfbuzz0b (>= 0.9.4), libicu66 (>= 66.1-1~)
+Filename: ./WebPin/Depends/libharfbuzz-icu0_2.6.4-1ubuntu4_amd64.deb
+Size: 5580
+MD5sum: 257aa8bd870562a4169fa8ff6d7a001f
+SHA1: d759896c80b7de46f7726b2e328e6c578fb49b42
+SHA256: e46a98ea10cef3f88e2d269c3ced39700b66445944a7bdf29fa5d70c8696959c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz
+Description: OpenType text shaping engine ICU backend
+ HarfBuzz is an implementation of the OpenType Layout engine (aka layout
+ engine) and the script-specific logic (aka shaping engine).
+ .
+ This package contains the ICU backend.
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+
+Package: libjavascriptcoregtk-4.0-18
+Source: webkit2gtk
+Version: 2.30.3-0ubuntu0.20.04.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23818
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.41.1), libicu66 (>= 66.1-1~), libstdc++6 (>= 9), libsystemd0
+Filename: ./WebPin/Depends/libjavascriptcoregtk-4.0-18_2.30.3-0ubuntu0.20.04.1_amd64.deb
+Size: 5731548
+MD5sum: 1541220cae48b2bdc6b2560137617536
+SHA1: c3d5b2385049b212532b82eb0f483b165a8435c4
+SHA256: 311b74b58429af57fa3376b1405b066d163d744a4456fd8064bcfab2119a9f0b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://webkitgtk.org/
+Description: JavaScript engine library from WebKitGTK
+ JavaScriptCore is the JavaScript engine used in WebKit. It consists
+ of the following building blocks: lexer, parser, start-up interpreter
+ (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
+ high-throughput optimizing JIT (FTL).
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+
+Package: libwebkit2gtk-4.0-37
+Source: webkit2gtk
+Version: 2.30.3-0ubuntu0.20.04.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 55816
+Depends: libjavascriptcoregtk-4.0-18 (= 2.30.3-0ubuntu0.20.04.1), bubblewrap (>= 0.3.1), xdg-dbus-proxy, libatk1.0-0 (>= 2.12.0), libc6 (>= 2.29), libcairo2 (>= 1.15.12), libegl1, libenchant-2-2 (>= 2.2.3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libgcc-s1 (>= 7), libgcrypt20 (>= 1.8.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1, libglib2.0-0 (>= 2.59.0), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.13.1), libgstreamer1.0-0 (>= 1.14.0), libgtk-3-0 (>= 3.23.0), libharfbuzz-icu0 (>= 0.9.18), libharfbuzz0b (>= 1.4.2), libhyphen0 (>= 2.7.1), libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libnotify4 (>= 0.7.0), libopenjp2-7 (>= 2.2.0), libpango-1.0-0 (>= 1.30.0), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.69.90), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 9), libsystemd0, libtasn1-6 (>= 4.14), libwayland-client0 (>= 1.9.91), libwayland-egl1 (>= 1.15.0), libwayland-server0 (>= 1.2.0), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwoff1 (>= 1.0.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxml2 (>= 2.8), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.0)
+Recommends: gstreamer1.0-plugins-good, gstreamer1.0-pulseaudio | gstreamer1.0-alsa, gstreamer1.0-gl, libgl1-mesa-dri
+Suggests: gstreamer1.0-libav
+Breaks: evolution (<< 3.34.1)
+Filename: ./WebPin/Depends/libwebkit2gtk-4.0-37_2.30.3-0ubuntu0.20.04.1_amd64.deb
+Size: 13433928
+MD5sum: fcc5235cd08c079c2f65d7b62247da24
+SHA1: ceb265a751dc71906daf2e004efbf0f3649b32ed
+SHA256: 593dc731efddc3ba21a800354569b5bce0fd1e71ff0c165edfe349f080fa0dcd
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://webkitgtk.org/
+Description: Web content engine library for GTK
+ WebKit is a web content engine, derived from KHTML and KJS from KDE, and
+ used primarily in Apple's Safari browser.  It is made to be embedded in
+ other applications, such as mail readers, or web browsers.
+ .
+ It is able to display content such as HTML, SVG, XML, and others. It also
+ supports DOM, XMLHttpRequest, XSLT, CSS, JavaScript/ECMAScript and more.
+ .
+ WebKit2 is an API layer for WebKit designed from the ground up to
+ support a split process model, where the web content lives in a
+ separate process from the application UI.
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This is the library for embedding in GTK applications.
+Original-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+
 Package: titenko-remastersys
 Version: 4.5.8~ubuntu20.04.1
 Architecture: all
@@ -56,4 +307,81 @@ Section: utils
 Priority: optional
 Description: Create a livecd of the installed system
  You can either make a distributable livecd or a backup of your system.
+
+Package: webapp-manager
+Version: 1.1.1
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 5481
+Depends: gir1.2-xapp-1.0, python3, python3-gi, python3-bs4, python3-configobj, python3-setproctitle, python3-tldextract, xapps-common, dconf-gsettings-backend | gsettings-backend
+Filename: ./WebApp Manager/webapp-manager_1.1.1_all.deb
+Size: 53352
+MD5sum: b013540dfb03b5eb539583ba2586e315
+SHA1: b66eb2e624b850cfcb5368f01bb85cbbe3310089
+SHA256: a058e588dfc8da811cd9add2150cf3233992ac66ffc341c322daae6c43a86557
+Section: admin
+Priority: optional
+Description: Web Application Manager
+ Launch websites as if they were apps.
+
+Package: webby-browser
+Version: 1.0+r17+pkg4+r1~ubuntu15.04.1
+Architecture: amd64
+Maintainer: Erasmo Marin <erasmo.marin@gmail.com>
+Installed-Size: 350
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.39.4), libgranite2 (>= 0.2.0), libgtk-3-0 (>= 3.12.0), libwebkit2gtk-3.0-25 (>= 2.0.2)
+Filename: ./Webby Browser/webby-browser_1.0+r17+pkg4+r1~ubuntu15.04.1_amd64.deb
+Size: 47282
+MD5sum: b04bd451e379e69ef7f9495ad2997799
+SHA1: b5364bddca7025a710963b6b8acdc2e8e0b6951e
+SHA256: 890a6be869334e12fa61a483cf3f8094666c00620471230f9befaf6f35198a05
+Section: gnome
+Priority: extra
+Homepage: http://launchpad.net/webby-browser
+Description: Webby webb app browser
+
+Package: webpin
+Version: 0.2.9
+Architecture: amd64
+Maintainer: Artem Anufrij <artem.anufrij@live.de>
+Installed-Size: 806
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.39.4), libgranite4 (>= 0.4.1), libgtk-3-0 (>= 3.16.2), libsoup2.4-1 (>= 2.41.90), libwebkit2gtk-4.0-37 (>= 2.8.1)
+Filename: ./WebPin/WebPin_0.2.9.deb
+Size: 52656
+MD5sum: ad8ddc594f3aafbe6e5664acc95f703b
+SHA1: 9469833ed35d3abeb46a971635f8d3aba791725f
+SHA256: 98fcad6c5c2307f43f3612d6546f528a428c68c088a9145cbe94054ca1580f7b
+Section: x11
+Priority: optional
+Description: Simple webpin app
+ A simple app to pin websites on the desktop, written especially for elementary OS
+
+Package: xdg-dbus-proxy
+Version: 0.1.2-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 67
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.39.4)
+Filename: ./WebPin/Depends/xdg-dbus-proxy_0.1.2-1_amd64.deb
+Size: 23016
+MD5sum: 5aa717ee5f2fcac1ada1fa4ce69aa362
+SHA1: 270cf4f4a8a273622a9181a49b45ce51b2ac9e47
+SHA256: 416614cce46fa4c59bbd1032d9f508f86ebd062065b514b9e09b2a7ff7d89277
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/flatpak/xdg-dbus-proxy
+Description: filtering D-Bus proxy
+ xdg-dbus-proxy is a filtering proxy for D-Bus connections. It was
+ originally part of the Flatpak project, but it has been broken out as
+ a standalone module to facilitate using it in other contexts, for
+ example in WebKit-GTK's optional bubblewrap-based sandbox.
+ .
+ For this proxy to be useful, restricted D-Bus clients must be denied
+ access to the normal D-Bus socket (for example by using containers or
+ AppArmor rules), and instead given access to the listening Unix socket
+ created by the proxy (typically by bind-mounting it into a Linux
+ container).
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 
